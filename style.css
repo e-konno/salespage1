@@ -1,0 +1,490 @@
+@charset "utf-8";
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #000;
+    font-size: 25px;
+    font-family: "M PLUS 1p";
+}
+
+@media screen and (min-width: 767px) {
+    
+    .inner {
+        width: 1080px;
+        margin: 0 auto;
+    }
+    
+    .key-visual {
+        position: relative;
+        color: #fff;
+        height: 732px;
+        background: url("images/portfoliottl.jpg") no-repeat center center / cover;
+    }
+    
+    .menu ul {
+        display: flex;
+        justify-content: flex-end;
+        box-sizing: border-box;
+        padding-top: 20px;
+        font-weight: bold;
+    }
+    
+    .menu li {
+        margin-right: 40px;
+        list-style: none;
+        text-decoration: underline;
+    }
+    
+    .menu a, a:visited, a:hover, a:active {
+        color: inherit;
+    } 
+    
+    .key-visual_ttl h1 {
+        font-size: 193px;
+        padding-top: 280px;
+    }
+    
+    .sec01 {
+        height: 603px;
+        background-color: #fff;
+    }
+    
+    .sec01 h2 {
+        font-size: 60px;
+        text-decoration: underline;
+        text-align: center;
+        padding: 45px 0;
+    }
+    
+    .sec01 img {
+        display: inline-block;
+        width: 500px;
+        height: 300px;
+    }
+    
+    .sec01 .slide_txt {
+        vertical-align: top;
+        width: 500px;
+        display: inline-block;
+        margin-left: 30px;
+    }
+    
+    .sec01 h4 {
+        font-size: 50px;
+        margin-bottom: 27px;
+    }
+    
+    .sec01 p {
+        line-height: 36px;
+    }
+    
+    .sec02 {
+        height: 806px;
+        background-color: #212123;
+        color: #fff;
+    }
+    
+    .sec02 h2 {
+        font-size: 60px;
+        text-decoration: underline;
+        text-align: center;
+        padding: 45px 0;
+    }
+    
+    .featureall {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .sec02 img {
+        width: 350px;
+        height: 300px;
+        margin-bottom: 23px;
+    }
+    
+    .sec02 p {
+        width: 350px;
+        height: 220px;
+        line-height: 36px;
+    }
+    
+    .sec03 {
+        height: 892px;
+        background-color: #fff;
+    }
+    
+    .sec03 h2 {
+        font-size: 60px;
+        text-decoration: underline;
+        text-align: center;
+        padding: 45px 0;
+    }
+    
+    .skillall {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .sec03 img {
+        width: 350px;
+        height: 350px;
+        margin-bottom: 23px;
+    }
+    
+    .sec03 p {
+        width: 350px;
+        height: 255px;
+        line-height: 36px;
+    }
+    
+    .sec04 {
+        height: 669px;
+        background-color: #212123;
+        color: #fff;
+    }
+    
+    .sec04 h2 {
+        font-size: 60px;
+        text-decoration: underline;
+        text-align: center;
+        padding: 45px 0;
+    }
+    
+    .sec04 input, .sec04 textarea {
+        display: block;
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    .sec04 input::placeholder, .sec04 textarea::placeholder {
+        color: #aaa;
+    }
+    .sec04 input {
+        height: 50px;
+        margin-bottom: 20px;
+    }
+    .sec04 textarea {
+        margin-bottom: 40px;
+        height: 100px;
+    }
+    .sec04 button {
+        width: 100%;
+        display: block;
+        height: 55px;
+        padding: 0 40px;
+        border: none;
+        border-radius: 22px;
+        background-color: #484848;
+        color: #fff;
+        font-size: 23px;
+        line-height: 45px;
+        text-decoration: none;
+    }
+    
+    .sec04 button:hover {
+        background-color: #828282;
+        transition: 0.5s;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .inner {
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .key-visual {
+        position: relative;
+        color: #fff;
+        height: 215px;
+        background: url("images/portfoliottl.jpg") no-repeat center center / cover;
+    }
+    
+    .menu ul {
+        display: flex;
+        justify-content: flex-end;
+        box-sizing: border-box;
+        padding-top: 10px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    .menu li {
+        margin-right: 10px;
+        list-style: none;
+        text-decoration: underline;
+    }
+
+    .menu a, a:visited, a:hover, a:active {
+        color: inherit;
+    } 
+
+    .key-visual_ttl h1 {
+        font-size: 72px;
+        padding-top: 30px;
+    }
+
+    .sec01 {
+        height: 480px;
+        background-color: #fff;
+    }
+    
+    .sec01 h2 {
+        font-size: 30px;
+        text-decoration: underline;
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    .sec01 img {
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .sec01 .slide_txt {
+        vertical-align: top;
+        width: 100%;
+        display: inline-block;
+    }
+    
+    .sec01 h4 {
+        font-size: 25px;
+        margin: 10px 0;
+    }
+    
+    .sec01 p {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+    .sec02 {
+        height: 1070px;
+        background-color: #212123;
+        color: #fff;
+    }
+    
+    .sec02 h2 {
+        font-size: 30px;
+        text-decoration: underline;
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    .sec02 img {
+        width: 350px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    
+    .sec02 p {
+        width: 100%;
+        font-size: 17px;
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+
+    .sec03 {
+        height: 1500px;
+        background-color: #fff;
+    }
+    
+    .sec03 h2 {
+        font-size: 30px;
+        text-decoration: underline;
+        text-align: center;
+        padding-top: 20px;
+        margin-bottom: -20px;
+    }
+    
+    .sec03 img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .skillleft {
+        margin-bottom: 5px;
+    }
+
+    .skillleft p {
+        margin-bottom: 5px;
+    }
+
+    .skillcenter {
+        margin-bottom: 5px;
+    }
+
+    .skillcenter p {
+        margin-bottom: 10px;
+    }
+
+    .skillright p {
+        margin-top: -12px;
+    }
+    
+    .sec03 p {
+        width: 100%;
+        font-size: 17px;
+        line-height: 25px;;
+    }
+
+    .sec04 {
+        height: 505px;
+        background-color: #212123;
+        color: #fff;
+    }
+    
+    .sec04 h2 {
+        font-size: 30px;
+        text-decoration: underline;
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    .sec04 input, .sec04 textarea {
+        display: block;
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    .sec04 input::placeholder, .sec04 textarea::placeholder {
+        color: #aaa;
+    }
+    .sec04 input {
+        height: 50px;
+        margin-bottom: 20px;
+    }
+    .sec04 textarea {
+        margin-bottom: 30px;
+        height: 100px;
+    }
+    .sec04 button {
+        width: 100%;
+        display: block;
+        height: 55px;
+        padding: 0 40px;
+        border: none;
+        border-radius: 22px;
+        background-color: #484848;
+        color: #fff;
+        font-size: 23px;
+        line-height: 45px;
+        text-decoration: none;
+    }
+    
+    .sec04 button:hover {
+        background-color: #828282;
+        transition: 0.5s;
+    }
+}
